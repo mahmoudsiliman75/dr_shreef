@@ -1,0 +1,38 @@
+.form-check {
+  padding-right: 1.25rem;
+}
+
+.form-check .form-check-input {
+  margin-right: -1.25rem;
+}
+
+h2,
+h3 {
+  border-right: 3px solid #d0af85;
+  border-left: none !important;
+}
+
+nav .lang-button button span:nth-child(1) {
+  background-color: #fff;
+  color: #d0af85;
+  border: 1px solid #d0af85;
+  border-left: none;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+nav .lang-button button span:nth-child(2) {
+  background-color: #d0af85;
+  color: #fff;
+  border: 1px solid #d0af85;
+  border-right: none;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.testemonials .owl-carousel .item {
+  direction: rtl;
+}
+/*# sourceMappingURL=ar-style.css.map */

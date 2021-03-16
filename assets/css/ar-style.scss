@@ -1,0 +1,63 @@
+// START:: VARIABLES
+@import 'variables.scss';
+// END:: VARIABLES
+
+// START:: MIXINS
+@import 'mixins.scss';
+// END:: MIXINS
+
+// START:: GLOBA AR STYLES
+.form-check {
+  padding-right: 1.25rem;
+  .form-check-input {
+    margin-right: -1.25rem;
+  }
+}
+
+h2,
+h3 {
+  border-right: 3px solid $lightCoffee;
+  border-left: none !important;
+}
+// START:: GLOBA AR STYLES
+
+// START:: LARGE SCREENS NAVBAR AR STYLES
+nav {
+  // START:: LANGUAGE BTN  AR STYLE
+  .lang-button {
+    button {
+      span {
+        &:nth-child(1) {
+          background-color: $white;
+          color: $lightCoffee;
+          border: 1px solid $lightCoffee;
+          border-left: none;
+          border-radius: 30px;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+        }
+        &:nth-child(2) {
+          background-color: $lightCoffee;
+          color: $white;
+          border: 1px solid $lightCoffee;
+          border-right: none;
+          border-radius: 30px;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+      }
+    }
+  }
+  // END:: LANGUAGE BTN AR STYLE
+}
+// END:: LARGE SCREENS NAVBAR AR STYLES
+
+// START:: TESTEMONIAL AR SECTION STYLES
+.testemonials {
+  .owl-carousel {
+    .item {
+      direction: rtl;
+    }
+  }
+}
+// END:: TESTEMONIAL AR SECTION STYLES
