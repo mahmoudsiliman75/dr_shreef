@@ -9,50 +9,45 @@
       <div class="short_cuts col-12 col-md-4 d-flex justify-content-between justify-content-md-center"> 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="index.php"> Home </a>
-          <a href="DrProfile.php"> Dr.Khaled Profile </a>
-          <a href="AllOperations.php"> Operations </a>
-          <a href="AllBooks.php"> Books </a>
-          <a href="ShareWithUs.php"> How To Share With Us </a>
-          <a href="AllVideos.php"> Videp Liberary </a>
+          <a href="#"> Surgery Details </a>
+          <a href="#"> Surgery FAQ </a>
         </div>
 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
-          <a href="CairoUniversity.php"> Cairo University </a>
-          <a href="auth.php"> Login </a>  
-          <a href="UserProfile.php"> User Profile </a>
-          <a href="#"> Payment Gateway </a>
-          <a href="ContactUs.php"> Contact Us </a>
+          <a href="#"> About Us </a>
+          <a href="#"> Videos Liberary </a>
+          <a href="#"> News </a>
         </div>
       </div>
 
       <div class="get_in_touch col-6 col-md-3 p-0 px-md-2"> 
-        <h5 class="my-3 d-flex"> Contact Us </h5>
+        <h5 class="my-3 d-flex"> Reach Us </h5>
 
         <ul class="list-unstyled p-0">
           <li class="d-flex"> 
-            <i class="fas fa-map-marker-alt mx-1"></i>
-            <span> El Doki, Giza, Egypt </span>
+            <i class="fas fa-map-marker-alt mx-1 mt-1"></i>
+            <span> Nacer City, Cairo, Egypt </span>
           </li>
 
           <li class="d-flex"> 
-            <i class="fas fa-envelope mx-1"></i>
-            <span> 
-              <a href="mailto: info@Dr.khaled.com"> info@Dr.khaled.com </a> </span>
-          </li>
-
-          <li class="d-flex"> 
-            <i class="fas fa-mobile-alt mx-1"></i>
+            <i class="fas fa-mobile-alt mx-1 mt-1"></i>
             <span> 
               <a href="tele:01000000001">01000000001 </a>
               - 
               <a href="tele:01000000002">01000000002 </a> 
             </span>
           </li>
+
+          <li class="d-flex"> 
+            <i class="fas fa-envelope mx-1 mt-1"></i>
+            <span> 
+              <a href="mailto: info@Dr.khaled.com"> info@Kerdawi-clinic.com </a> </span>
+          </li>
         </ul>
       </div>
 
       <div class="follow_us col-12 col-md-3"> 
-        <h5 class="text-center my-3"> Follow Us </h5>
+        <h5 class="text-center my-3"> Follow Dr.Shreif </h5>
         <ul class="list-unstyled">
           <li> 
             <a href="#" class="facebook" target="_blanck"> 
@@ -62,13 +57,7 @@
 
           <li> 
             <a href="#" class="instagram" target="_blanck"> 
-              <i class="fab fa-instagram-square fa-2x"></i>
-            </a>
-          </li>
-
-          <li> 
-            <a href="#" class="youtube" target="_blanck"> 
-              <i class="fab fa-youtube fa-2x"></i>
+              <i class="fab fa-linkedin fa-2x"></i>
             </a>
           </li>
 
@@ -78,18 +67,11 @@
             </a>
           </li>
         </ul>
-
-        <h5 class="text-center mt-0 mb-2"> Payment System </h5>
-        <span class="d-block text-center mt-0 mb-2 payment"> 
-          <a href="#" target="_blanck">
-            <i class="fab fa-cc-visa fa-2x"></i>
-          </a>
-        </span>
       </div>
 
       <div class="copy_rights col-12 d-flex justify-content-between">
         <span> Powered By <a href="https://mediaservagency.com/" target="_blank"> MediaServe </a> </span>
-        <span> &copy; 2021 Dr.Shreef Kerdawy </span>
+        <span> &copy; 2021 Dr.Shreif </span>
       </div>
     </div>
   </div>

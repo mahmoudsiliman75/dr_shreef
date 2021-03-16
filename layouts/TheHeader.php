@@ -35,17 +35,65 @@
   <link rel="icon" href="assets/media/logo.png">
   <!-- END:: SET FAV ICON -->
 
-  <title> Dr.Khaled Salah </title>
+  <title> Dr.Shreif </title>
 </head>
 <body>
 
+<!-- START:: UPPER BAR -->
+<div class="upper_bar">
+  <div class="container-fluid">
+    <div class="upper_par_element">
+      <!-- START:: LANG BUTTON -->
+      <div class="lang-button mx-2">
+        <button> 
+          <span> EN </span>
+          <span> AR </span>
+        </button>
+      </div>
+      <!-- END:: LANG BUTTON -->
+    </div>
+    
+    <div class="upper_par_element">
+      <!-- START:: THE LOGO -->
+      <div class="site-logo">
+        <img src="assets/media/logo.png" alt="The Logo">
+      </div>
+      <!-- END:: THE LOGO -->
+    </div>
+    
+    <div class="upper_par_element">
+      <ul class="social_links list-unstyled">
+        <li>
+          <a href="#">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fab fa-instagram-square fa-2x"></i> 
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fab fa-whatsapp-square fa-2x"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="mobile">
+            <i class="fas fa-mobile-alt"></i>
+            +200132151611
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- START:: UPPER BAR -->
 <!-- START:: LARGE SCREENS NAVBAR -->
 <nav class="d-flex justify-content-between align-items-center">
-  <!-- START:: THE LOGO -->
-  <div class="site-logo">
-    <img src="assets/media/logo.png" alt="The Logo">
-  </div>
-  <!-- END:: THE LOGO -->
 
   <!-- START:: NAV LINKS -->
   <div class="nav-links">
@@ -55,63 +103,30 @@
       </li>
 
       <li> 
-        <a href="DrProfile.php"> Dr.khaled Profile </a>
+        <a href="#"> About Us </a>
       </li>
 
       <li> 
-        <a href="AllOperations.php"> Operations </a>
+        <a href="#"> Surgery </a>
       </li>
 
       <li> 
-        <a href="ShareWithUs.php"> How To Share With Us </a>
+        <a href="#"> FAQ </a>
       </li>
 
       <li> 
-        <a href="AllBooks.php"> Books </a>
+        <a href="#"> News </a>
       </li>
 
       <li> 
-        <a href="CairoUniversity.php"> Cairo University </a>
+        <a href="#"> Videos </a>
       </li>
 
-      <li> 
-        <a href="AllVideos.php"> Videos Liberary </a>
-      </li>
-
-      <li> 
-        <a href="auth.php"> Login </a>
-      </li>
-
-      <li> 
-        <a href="UserProfile.php"> Profile </a>
-      </li>
-
-      <li> 
-        <a href="ContactUs.php"> Contact Us </a>
-      </li>
     </ul>
   </div>
   <!-- START:: NAV LINKS -->
 
   <div class="menu_btns d-flex align-items-center">
-    <!-- START:: CART BUTTON -->
-    <div class="cart_btn">
-      <a href="UserCart.php">
-        <span class="badge badge-pill badge-danger">2</span>
-        <i class="fas fa-shopping-cart fa-lg"></i>
-      </a>
-    </div>
-    <!-- END:: CART BUTTON -->
-
-    <!-- START:: LANG BUTTON -->
-    <div class="lang-button mx-2">
-      <button> 
-        <span> E </span>
-        <span> ع </span>
-      </button>
-    </div>
-    <!-- END:: LANG BUTTON -->
-
     <!-- START:: MENU BUTTON -->
     <button id="open_menu" class="menu_btn mx-2">
       <i class="fas fa-bars"></i>
@@ -135,35 +150,23 @@
     </li>
 
     <li> 
-      <a href="DrProfile.php"> Dr.khaled Profile </a>
+      <a href="#"> About Us </a>
     </li>
 
     <li> 
-      <a href="AllOperations.php"> Operations </a>
+      <a href="#"> Surgery </a>
     </li>
 
     <li> 
-      <a href="ShareWithUs.php"> How To Share With Us </a>
+      <a href="#"> FAQ </a>
     </li>
 
     <li> 
-      <a href="AllBooks.php"> Books </a>
+      <a href="#"> News </a>
     </li>
 
     <li> 
-      <a href="CairoUniversity.php"> Cairo University </a>
-    </li>
-
-    <li> 
-      <a href="AllVideos.php"> Videos Liberary </a>
-    </li>
-
-    <li> 
-      <a href="auth.php"> Login </a>
-    </li>
-
-    <li> 
-      <a href="ContactUs.php"> Contact Us </a>
+      <a href="#"> Videos </a>
     </li>
   </ul>
 </div>

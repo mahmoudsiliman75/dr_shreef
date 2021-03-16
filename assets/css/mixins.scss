@@ -20,12 +20,12 @@
   font-size: 15px;
   a {
     text-decoration: none;
-    color: $deepBlue;
+    color: $midBlue;
     @include transitioning();
   }
   &.active {
     a {
-      color: $lightCoffee;
+      color: $midGreen;
       font-weight: bold;
     }
     &::before {
@@ -36,7 +36,7 @@
       display: block;
       width: 100%;
       height: 2px;
-      background-color: $lightCoffee;
+      background-color: $midGreen;
       @include transitioning();
     }
   }
@@ -48,12 +48,12 @@
     display: block;
     width: 100%;
     height: 2px;
-    background-color: $lightCoffee;
+    background-color: $midGreen;
     @include transitioning();
   }
   &:hover {
     a{
-      color: $lightCoffee;
+      color: $midGreen;
     }
   }
   &:hover::before {
