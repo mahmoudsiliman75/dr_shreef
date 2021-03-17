@@ -38,6 +38,14 @@
 							Magnam, explicabo aut reprehenderit corporis culpa sint 
 							architecto maxime eos quo aliquam incidunt laboriosam 
 							quidem consectetur molestias officia, neque quae error exercitationem.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Magnam, explicabo aut reprehenderit corporis culpa sint 
+							architecto maxime eos quo aliquam incidunt laboriosam 
+							quidem consectetur molestias officia, neque quae error exercitationem.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Magnam, explicabo aut reprehenderit corporis culpa sint 
+							architecto maxime eos quo aliquam incidunt laboriosam 
+							quidem consectetur molestias officia, neque quae error exercitationem.
 						</p>
 					</div>
 				</div>
@@ -92,7 +100,7 @@
 <!-- END:: HIGHLIGHTS SECTION -->
 
 <!-- START:: OPERATIONS SECTION -->
-<div class="operations">
+<div class="operation_states">
   <div class="container-fluid">
 
     <div id="operation_1" class="row operation_wraper mt-3">
@@ -111,6 +119,14 @@
           Rem nam nostrum soluta libero magnam tempore amet temporibus, 
           laborum architecto possimus, omnis perspiciatis. Aut ea 
           consequuntur mollitia suscipit quam quaerat odit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
         </p>
       </div>
     </div>
@@ -131,6 +147,14 @@
           Rem nam nostrum soluta libero magnam tempore amet temporibus, 
           laborum architecto possimus, omnis perspiciatis. Aut ea 
           consequuntur mollitia suscipit quam quaerat odit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
         </p>
       </div>
     </div>
@@ -151,6 +175,14 @@
           Rem nam nostrum soluta libero magnam tempore amet temporibus, 
           laborum architecto possimus, omnis perspiciatis. Aut ea 
           consequuntur mollitia suscipit quam quaerat odit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
         </p>
       </div>
     </div>
@@ -171,6 +203,14 @@
           Rem nam nostrum soluta libero magnam tempore amet temporibus, 
           laborum architecto possimus, omnis perspiciatis. Aut ea 
           consequuntur mollitia suscipit quam quaerat odit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
         </p>
       </div>
     </div>
@@ -191,6 +231,14 @@
           Rem nam nostrum soluta libero magnam tempore amet temporibus, 
           laborum architecto possimus, omnis perspiciatis. Aut ea 
           consequuntur mollitia suscipit quam quaerat odit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Magnam, explicabo aut reprehenderit corporis culpa sint 
+          architecto maxime eos quo aliquam incidunt laboriosam 
+          quidem consectetur molestias officia, neque quae error exercitationem.
         </p>
       </div>
     </div>

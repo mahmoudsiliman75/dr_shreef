@@ -806,12 +806,12 @@ nav .menu_btn svg {
   color: #fff;
 }
 
-.operations {
+.operation_states {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.operations .header_wraper {
+.operation_states .header_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -823,12 +823,12 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.operations .header_wraper h2 {
+.operation_states .header_wraper h2 {
   color: #085c77;
   position: relative;
 }
 
-.operations .header_wraper h2::before {
+.operation_states .header_wraper h2::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -839,29 +839,29 @@ nav .menu_btn svg {
   background-color: #5d833a;
 }
 
-.operations .operation_wraper .operation_img_wraper {
+.operation_states .operation_wraper .operation_img_wraper {
   height: auto;
 }
 
-.operations .operation_wraper .operation_img_wraper img {
+.operation_states .operation_wraper .operation_img_wraper img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
 
-.operations .operation_wraper .operation_text_wraper h4 {
-  color: #00303f;
+.operation_states .operation_wraper .operation_text_wraper h4 {
+  color: #085c77;
   text-align: start;
 }
 
-.operations .operation_wraper .operation_text_wraper p {
+.operation_states .operation_wraper .operation_text_wraper p {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
   text-align: justify;
 }
 
-.operations .operation_wraper .operation_text_wraper .btn_box {
+.operation_states .operation_wraper .operation_text_wraper .btn_box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -871,7 +871,7 @@ nav .menu_btn svg {
   width: 100%;
 }
 
-.operations .operation_wraper .operation_text_wraper .btn_box a {
+.operation_states .operation_wraper .operation_text_wraper .btn_box a {
   overflow: hidden;
   text-decoration: none;
   padding: 5px 15px;
@@ -885,7 +885,7 @@ nav .menu_btn svg {
   border-radius: 20px;
 }
 
-.operations .operation_wraper .operation_text_wraper .btn_box a::before {
+.operation_states .operation_wraper .operation_text_wraper .btn_box a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -901,40 +901,40 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.operations .operation_wraper .operation_text_wraper .btn_box a:hover {
+.operation_states .operation_wraper .operation_text_wraper .btn_box a:hover {
   color: #fff;
 }
 
-.operations .operation_wraper .operation_text_wraper .btn_box a:hover::before {
+.operation_states .operation_wraper .operation_text_wraper .btn_box a:hover::before {
   top: 0;
 }
 
-.operations .operation_wraper:nth-child(even) .operation_img_wraper {
+.operation_states .operation_wraper:nth-child(even) .operation_img_wraper {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
 }
 
-.operations .operation_wraper:nth-child(even) .operation_text_wraper {
+.operation_states .operation_wraper:nth-child(even) .operation_text_wraper {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
 }
 
 @media (max-width: 767px) {
-  .operations .operation_wraper:nth-child(even) .operation_img_wraper {
+  .operation_states .operation_wraper:nth-child(even) .operation_img_wraper {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
   }
-  .operations .operation_wraper:nth-child(even) .operation_text_wraper {
+  .operation_states .operation_wraper:nth-child(even) .operation_text_wraper {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
 }
 
-.operations .btn_box {
+.operation_states .btn_box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -946,7 +946,7 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.operations .btn_box a {
+.operation_states .btn_box a {
   overflow: hidden;
   text-decoration: none;
   padding: 5px 15px;
@@ -960,7 +960,7 @@ nav .menu_btn svg {
   border-radius: 20px;
 }
 
-.operations .btn_box a::before {
+.operation_states .btn_box a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -976,11 +976,11 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.operations .btn_box a:hover {
+.operation_states .btn_box a:hover {
   color: #fff;
 }
 
-.operations .btn_box a:hover::before {
+.operation_states .btn_box a:hover::before {
   top: 0;
 }
 

@@ -120,7 +120,7 @@
       </li>
 
       <li> 
-        <a href="#"> Videos </a>
+        <a href="AllVideos.php"> Videos </a>
       </li>
 
     </ul>
@@ -167,7 +167,7 @@
     </li>
 
     <li> 
-      <a href="#"> Videos </a>
+      <a href="AllVideos.php"> Videos </a>
     </li>
   </ul>
 </div>
