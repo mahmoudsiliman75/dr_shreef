@@ -134,6 +134,42 @@
 </div>
 <!-- END:: HIGHLIGHTS SECTION -->
 
+<!-- START:: FAQ SECTION -->
+<div class="faq">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> Surgery FAQ </h2>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+        <div class="accordion" id="question_1">
+          <div class="card">
+            <div class="card-header" id="heading_1">
+              <h5 class="mb-0">
+                <button class="btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="far fa-arrow-alt-circle-down fa-lg"></i>
+                  Question #1
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapse_1" class="collapse show" aria-labelledby="heading_1" data-parent="#question_1">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolor similique voluptate molestias asperiores libero ullam inventore, perspiciatis nostrum dolores nam eveniet iste, aliquam voluptatum mollitia earum accusantium nisi animi. Commodi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: FAQ SECTION -->
+
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

@@ -599,6 +599,55 @@ nav .menu_btn svg {
   color: #00303f;
 }
 
+.faq {
+  padding-top: 30px;
+}
+
+.faq .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq .header_wraper h2 {
+  color: #085c77;
+  position: relative;
+}
+
+.faq .header_wraper h2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -45px;
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #5d833a;
+}
+
+.faq .accordion .card {
+  border-radius: 10px;
+}
+
+.faq .accordion .card .card-header {
+  background: #085c77;
+  background: -webkit-gradient(linear, left top, right top, from(#085c77), to(#5d833a));
+  background: linear-gradient(to right, #085c77, #5d833a);
+}
+
+.faq .accordion .card .card-header h5 button {
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  background-color: transparent;
+}
+
 .liberary {
   position: relative;
   background: url("../media/books.jpg") no-repeat fixed;

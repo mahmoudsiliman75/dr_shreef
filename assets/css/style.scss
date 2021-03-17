@@ -401,6 +401,37 @@ nav {
 }
 // END:: WHY SECTION STYLES
 
+// START:: FAQ SECTION STYLES
+.faq {
+  padding-top: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .accordion {
+    .card {
+      border-radius: $borderRadiusAmount;
+      .card-header {
+        background: $midBlue;
+        background: -webkit-linear-gradient(to right, $midBlue, $midGreen);
+        background: linear-gradient(to right, $midBlue, $midGreen);
+        h5 {
+          button {
+            text-decoration: none;
+            color: $white;
+            border: none;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: FAQ SECTION STYLES
+
 
 
 
