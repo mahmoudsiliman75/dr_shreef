@@ -41,7 +41,7 @@
         </li>
 
         <li>
-          <a href="#"> Surgery FAQ </a>
+          <a href="Faq.php"> Surgery FAQ </a>
         </li>
 
         <li>
@@ -222,7 +222,17 @@
             <div id="collapse_4" class="collapse show" aria-labelledby="heading_4" data-parent="#question_4">
               <div class="card-body">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Dolor similique voluptate molestias asperiores libero ullam inventore, perspiciatis nostrum dolores nam eveniet iste, aliquam voluptatum mollitia earum accusantium nisi animi. Commodi.
+                Dolor similique voluptate molestias asperiores libero ullam 
+                inventore, perspiciatis nostrum dolores nam eveniet iste, 
+                aliquam voluptatum mollitia earum accusantium nisi animi. Commodi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolor similique voluptate molestias asperiores libero ullam 
+                inventore, perspiciatis nostrum dolores nam eveniet iste, 
+                aliquam voluptatum mollitia earum accusantium nisi animi. Commodi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolor similique voluptate molestias asperiores libero ullam 
+                inventore, perspiciatis nostrum dolores nam eveniet iste, 
+                aliquam voluptatum mollitia earum accusantium nisi animi. Commodi.
               </div>
             </div>
           </div>
@@ -230,7 +240,7 @@
       </div>
 
       <div class="col-12 btn_box">
-        <a href="#"> View More </a>
+        <a href="Faq.php"> View More </a>
       </div>
     </div>
   </div>

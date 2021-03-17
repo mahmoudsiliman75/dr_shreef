@@ -10,7 +10,7 @@
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="index.php"> Home </a>
           <a href="AboutSurgery.php"> Surgery Details </a>
-          <a href="#"> Surgery FAQ </a>
+          <a href="Faq.php"> Surgery FAQ </a>
         </div>
 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">

@@ -691,6 +691,21 @@ nav .menu_btn svg {
   background-color: transparent;
 }
 
+.faq .accordion .card .card-body {
+  min-height: 200px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.faq .accordion .card .card-body::-webkit-scrollbar {
+  background-color: #c1c1c1;
+  width: 5px;
+}
+
+.faq .accordion .card .card-body::-webkit-scrollbar-thumb {
+  background-color: #085c77;
+}
+
 .faq .btn_box {
   display: -webkit-box;
   display: -ms-flexbox;

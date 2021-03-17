@@ -420,6 +420,19 @@ nav {
           }
         }
       }
+
+      .card-body {
+        min-height: 200px;
+        max-height: 200px;
+        overflow-y: auto;
+        &::-webkit-scrollbar {
+          background-color: $lighterGrey;
+          width: 5px;
+        }
+        &::-webkit-scrollbar-thumb {
+          background-color: $midBlue;
+        }
+      }
     }
   }
 
