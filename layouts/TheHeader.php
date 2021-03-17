@@ -108,7 +108,7 @@
       </li>
 
       <li> 
-        <a href="#"> Surgery </a>
+        <a href="AboutSurgery.php"> Surgery </a>
       </li>
 
       <li> 
@@ -155,7 +155,7 @@
     </li>
 
     <li> 
-      <a href="#"> Surgery </a>
+      <a href="AboutSurgery.php"> Surgery </a>
     </li>
 
     <li> 

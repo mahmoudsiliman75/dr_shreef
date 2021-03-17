@@ -45,7 +45,7 @@
         </li>
 
         <li>
-          <a href="#"> About Us </a>
+          <a href="AboutUs.php"> About Us </a>
         </li>
       </ul>
     </div>
@@ -54,10 +54,9 @@
 </div>
 <!-- END:: HOME INTRO SERCTION -->
 
-<!-- START:: BIOGRAPHY SECTION -->
+<!-- START:: ABOUT SYRGERY SECTION -->
 <div class="about_sec">
 	<div class="container-fluid">
-
 		<div class="about_wrape mt-3">
 			<div class="row justify-content-center">
 				<div class="col-10 col-md-5 mb-3">
@@ -80,7 +79,7 @@
 							quidem consectetur molestias officia, neque quae error exercitationem.
 						</p>
 						<div class="btn_box">
-							<a href="#"> Read More </a>
+							<a href="AboutSurgery.php"> Read More </a>
 						</div>
 					</div>
 				</div>
@@ -88,7 +87,7 @@
 		</div>
 	</div>
 </div>
-<!-- END:: BIOGRAPHY SECTION -->
+<!-- END:: ABOUT SYRGERY SECTION -->
 
 <!-- START:: HIGHLIGHTS SECTION -->
 <div class="highlights_sec">

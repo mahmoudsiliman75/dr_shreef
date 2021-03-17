@@ -61,7 +61,7 @@
       <div class="short_cuts col-12 col-md-4 d-flex justify-content-between justify-content-md-center"> 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="index.php"> Home </a>
-          <a href="#"> Surgery Details </a>
+          <a href="AboutSurgery.php"> Surgery Details </a>
           <a href="#"> Surgery FAQ </a>
         </div>
 
