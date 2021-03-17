@@ -90,6 +90,50 @@
 </div>
 <!-- END:: BIOGRAPHY SECTION -->
 
+<!-- START:: HIGHLIGHTS SECTION -->
+<div class="highlights_sec">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> Surgery Highlights </h2>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row icons_wraper justify-content-center mt-3">
+      <div class="col-6 col-md-3 d-block text-center d-md-flex my-3 mx-0 mx-md-4">
+        <img src="assets/media/icons/clock.png" alt="Why Section Icon 1">
+        <h5> From 30 Too 60 Min </h5>
+      </div>
+
+      <div class="col-6 col-md-3 d-block text-center d-md-flex my-3 mx-0 mx-md-4">
+        <img src="assets/media/icons/hospital.png" alt="Why Section Icon 1">
+        <h5> No Anesthesia </h5>
+      </div>
+
+      <div class="col-6 col-md-3 d-block text-center d-md-flex my-3 mx-0 mx-md-4">
+        <img src="assets/media/icons/hospital.png" alt="Why Section Icon 1">
+        <h5> No Side Effects </h5>
+      </div>
+
+      <div class="col-6 col-md-3 d-block text-center d-md-flex my-3 mx-0 mx-md-4">
+        <img src="assets/media/icons/hospital.png" alt="Why Section Icon 1">
+        <h5> No Disease Preventions </h5>
+      </div>
+
+      <div class="col-6 col-md-3 d-block text-center d-md-flex my-3 mx-0 mx-md-4">
+        <img src="assets/media/icons/hospital.png" alt="Why Section Icon 1">
+        <h5> No Age Limits </h5>
+      </div>
+
+      <div class="col-6 col-md-3 d-block text-center d-md-flex my-3 mx-0 mx-md-4">
+        <img src="assets/media/icons/hospital.png" alt="Why Section Icon 1">
+        <h5> Surgery Effect Life Time </h5>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: HIGHLIGHTS SECTION -->
+
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

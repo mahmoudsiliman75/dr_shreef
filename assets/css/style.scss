@@ -372,9 +372,8 @@ nav {
 }
 //  END:: BIOGRAPHY SECTION
 
-
 // START:: WHY SECTION STYLES
-.why_sec {
+.highlights_sec {
   padding-top: $paddingAmount;
   .header_wraper {
     @include flexCenterAlignment();
@@ -384,22 +383,30 @@ nav {
   }
 
   .icons_wraper {
-    background: $lightCoffee;
-    background: -webkit-linear-gradient(to top, $lightCoffee, #fff);
-    background: linear-gradient(to top, $lightCoffee, #fff);
     padding-bottom: $paddingAmount;
-    img {
-      min-width: 120px;
-      max-width: 120px;
-      min-height: 120px;
-      max-height: 120px;
-    }
-    h5 {
-      color: $deepBlue;
+    div {
+      @include flexCenterAlignment();
+      justify-content: start;
+      img {
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 120px;
+        max-height: 120px;
+      }
+      h5 {
+        color: $deepBlue;
+      }
     }
   }
 }
 // END:: WHY SECTION STYLES
+
+
+
+
+
+
+
 
 // START:: LIBERARY SECTION STYLES
 .liberary {
