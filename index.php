@@ -143,8 +143,8 @@
   </div>
 
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6">
+    <div class="row justify-content-center mt-3">
+      <div class="col-8 col-md-6 mb-4">
         <div class="accordion" id="question_1">
           <div class="card">
             <div class="card-header" id="heading_1">
@@ -164,6 +164,76 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="col-8 col-md-6 mb-4">
+        <div class="accordion" id="question_2">
+          <div class="card">
+            <div class="card-header" id="heading_2">
+              <h5 class="mb-0">
+                <button class="btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="far fa-arrow-alt-circle-down fa-lg"></i>
+                  Question #2
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapse_2" class="collapse show" aria-labelledby="heading_2" data-parent="#question_2">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolor similique voluptate molestias asperiores libero ullam inventore, perspiciatis nostrum dolores nam eveniet iste, aliquam voluptatum mollitia earum accusantium nisi animi. Commodi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8 col-md-6 mb-4">
+        <div class="accordion" id="question_3">
+          <div class="card">
+            <div class="card-header" id="heading_3">
+              <h5 class="mb-0">
+                <button class="btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse_3" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="far fa-arrow-alt-circle-down fa-lg"></i>
+                  Question #3
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapse_3" class="collapse show" aria-labelledby="heading_3" data-parent="#question_3">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolor similique voluptate molestias asperiores libero ullam inventore, perspiciatis nostrum dolores nam eveniet iste, aliquam voluptatum mollitia earum accusantium nisi animi. Commodi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8 col-md-6 mb-4">
+        <div class="accordion" id="question_4">
+          <div class="card">
+            <div class="card-header" id="heading_4">
+              <h5 class="mb-0">
+                <button class="btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse_4" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="far fa-arrow-alt-circle-down fa-lg"></i>
+                  Question #4
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapse_4" class="collapse show" aria-labelledby="heading_4" data-parent="#question_4">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolor similique voluptate molestias asperiores libero ullam inventore, perspiciatis nostrum dolores nam eveniet iste, aliquam voluptatum mollitia earum accusantium nisi animi. Commodi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 btn_box">
+        <a href="#"> View More </a>
       </div>
     </div>
   </div>

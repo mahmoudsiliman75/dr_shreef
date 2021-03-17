@@ -429,6 +429,13 @@ nav {
       }
     }
   }
+
+  .btn_box  {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
 }
 // END:: FAQ SECTION STYLES
 
