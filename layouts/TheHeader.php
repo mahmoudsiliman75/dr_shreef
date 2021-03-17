@@ -42,7 +42,7 @@
 <!-- START:: UPPER BAR -->
 <div class="upper_bar">
   <div class="container-fluid">
-    <div class="upper_par_element">
+    <div class="upper_bar_element">
       <!-- START:: LANG BUTTON -->
       <div class="lang-button mx-2">
         <button> 
@@ -53,7 +53,7 @@
       <!-- END:: LANG BUTTON -->
     </div>
     
-    <div class="upper_par_element">
+    <div class="upper_bar_element">
       <!-- START:: THE LOGO -->
       <div class="site-logo">
         <img src="assets/media/logo.png" alt="The Logo">
@@ -61,7 +61,7 @@
       <!-- END:: THE LOGO -->
     </div>
     
-    <div class="upper_par_element">
+    <div class="upper_bar_element">
       <ul class="social_links list-unstyled">
         <li>
           <a href="#">
@@ -82,7 +82,7 @@
         </li>
 
         <li>
-          <a href="#" class="mobile">
+          <a href="tele:+200132151611" class="mobile">
             <i class="fas fa-mobile-alt"></i>
             +200132151611
           </a>
@@ -92,6 +92,7 @@
   </div>
 </div>
 <!-- START:: UPPER BAR -->
+
 <!-- START:: LARGE SCREENS NAVBAR -->
 <nav class="d-flex justify-content-between align-items-center">
 

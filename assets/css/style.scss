@@ -107,77 +107,88 @@ body {
   .container-fluid {
     @include flexCenterAlignment();
     justify-content: space-between;
-    // START:: LANGUAGE BTN STYLE
-    .lang-button {
-      button {
-        background-color: transparent;
-        border: none;
-        padding: 0;
-        font-weight: bold;
-        span {
-          font-size: 16px;
-          padding: 3px 10px;
-          &:nth-child(1) {
-            color: $white;
-            background: $midGreen;
-            background: -webkit-linear-gradient(to right, $midGreen, $midBlue);
-            background: linear-gradient(to right, $midGreen, $midBlue);
-            border: 1px solid $midBlue;
-            border-right: none;
-            border-radius: 30px;
-            border-top-right-radius: 0;
-            border-bottom-right-radius: 0;
-          }
-          &:nth-child(2) {
-            color: $midGreen;
-            border: 1px solid $midBlue;
-            border-left: none;
-            border-radius: 30px;
-            border-top-left-radius: 0;
-            border-bottom-left-radius: 0;
+    flex-wrap: wrap;
+    .upper_bar_element {
+      // START:: LANGUAGE BTN STYLE
+      .lang-button {
+        button {
+          background-color: transparent;
+          border: none;
+          padding: 0;
+          font-weight: bold;
+          span {
+            font-size: 16px;
+            padding: 3px 10px;
+            &:nth-child(1) {
+              color: $white;
+              background: $midGreen;
+              background: -webkit-linear-gradient(to right, $midGreen, $midBlue);
+              background: linear-gradient(to right, $midGreen, $midBlue);
+              border: 1px solid $midBlue;
+              border-right: none;
+              border-radius: 30px;
+              border-top-right-radius: 0;
+              border-bottom-right-radius: 0;
+            }
+            &:nth-child(2) {
+              color: $midGreen;
+              border: 1px solid $midBlue;
+              border-left: none;
+              border-radius: 30px;
+              border-top-left-radius: 0;
+              border-bottom-left-radius: 0;
+            }
           }
         }
       }
-    }
-    // END:: LANGUAGE BTN STYLE
-  
-    // START:: UPPER BAR LOGO STYLE
-    .site-logo {
-      min-width: 80px;
-      max-width: 80px;
-      min-height: 80px;
-      max-height: 80px;
-      img {
-        width: 100%;
-        height: 100%;
-      }
-    }
-    // END:: UPPER BAR LOGO STYLE
+      // END:: LANGUAGE BTN STYLE
 
-    // START:: UPPER BAR SOCIAL LINKS STYLES
-    .social_links {
-      margin: 0;
-      @include flexCenterAlignment();
-      li {
-        margin: 0 5px;
-        a {
-          text-decoration: none;
-          color: $midBlue;
-          &:hover {
-            color: $midGreen;
-          }
-          &.mobile{
-            padding: 5px 8px;
-            border-radius: $largeBorderRadiusAmount;
-            color: $white;
-            background: $midGreen;
-            background: -webkit-linear-gradient(to right, $midGreen, $midBlue);
-            background: linear-gradient(to right, $midGreen, $midBlue);
+      // START:: UPPER BAR LOGO STYLE
+      .site-logo {
+        min-width: 80px;
+        max-width: 80px;
+        min-height: 80px;
+        max-height: 80px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      // END:: UPPER BAR LOGO STYLE
+
+      // START:: UPPER BAR SOCIAL LINKS STYLES
+      .social_links {
+        margin: 0;
+        @include flexCenterAlignment();
+        li {
+          margin: 0 5px;
+          a {
+            text-decoration: none;
+            color: $midBlue;
+            &:hover {
+              color: $midGreen;
+            }
+            &.mobile{
+              padding: 5px 8px;
+              border-radius: $largeBorderRadiusAmount;
+              color: $white;
+              background: $midGreen;
+              background: -webkit-linear-gradient(to right, $midGreen, $midBlue);
+              background: linear-gradient(to right, $midGreen, $midBlue);
+            }
           }
         }
       }
+      // END:: UPPER BAR SOCIAL LINKS STYLES
     }
-    // END:: UPPER BAR SOCIAL LINKS STYLES
+    @media( max-width: 767px ) {
+      .upper_bar_element {
+        &:nth-of-type(3) {
+          width: 100%;
+          margin-top: 15px;
+        }
+      }
+    }
   }
 }
 // END:: UPPER BARSTYLES
@@ -1884,6 +1895,7 @@ footer {
   background-color: $darkGrey;
 
   .footer_logo {
+    padding: 15px 0;
     @include flexCenterAlignment();
     img {
       min-width: 100px;
