@@ -102,7 +102,7 @@
     <div class="row icons_wraper justify-content-center mt-3">
       <div class="col-6 col-md-3 d-block text-center d-md-flex my-3 mx-0 mx-md-4">
         <img src="assets/media/icons/clock.png" alt="Why Section Icon 1">
-        <h5> From 30 Too 60 Min </h5>
+        <h5> From 30 To 60 Min </h5>
       </div>
 
       <div class="col-6 col-md-3 d-block text-center d-md-flex my-3 mx-0 mx-md-4">
@@ -140,11 +140,9 @@
     <div class="header_wraper">
       <h2> Surgery FAQ </h2>
     </div>
-  </div>
 
-  <div class="container">
     <div class="row justify-content-center mt-3">
-      <div class="col-8 col-md-6 mb-4">
+      <div class="col-10 col-md-6 mb-4">
         <div class="accordion" id="question_1">
           <div class="card">
             <div class="card-header" id="heading_1">
@@ -166,7 +164,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-6 mb-4">
+      <div class="col-10 col-md-6 mb-4">
         <div class="accordion" id="question_2">
           <div class="card">
             <div class="card-header" id="heading_2">
@@ -188,7 +186,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-6 mb-4">
+      <div class="col-10 col-md-6 mb-4">
         <div class="accordion" id="question_3">
           <div class="card">
             <div class="card-header" id="heading_3">
@@ -210,7 +208,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-6 mb-4">
+      <div class="col-10 col-md-6 mb-4">
         <div class="accordion" id="question_4">
           <div class="card">
             <div class="card-header" id="heading_4">
@@ -269,7 +267,7 @@
 							quidem consectetur molestias officia, neque quae error exercitationem.
 						</p>
 						<div class="btn_box">
-							<a href="#"> Read More </a>
+							<a href="AboutUs.php"> Read More </a>
 						</div>
 					</div>
 				</div>
@@ -278,7 +276,6 @@
 	</div>
 </div>
 <!-- END:: BIOGRAPHY SECTION -->
-
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

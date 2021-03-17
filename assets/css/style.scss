@@ -10,7 +10,7 @@
 body {
   font-family: 'Noto Serif JP', serif;
   overflow-x: hidden;
-  height: 10000px;
+  // height: 10000px;
   &::-webkit-scrollbar {
     background-color: $lighterGrey;
     width: 5px;
@@ -19,38 +19,6 @@ body {
     background-color: $deepBlue;
   }
 }
-
-// START:: FLEX SLIDER GLOBAL STYLES
-.flexslider {
-  .flex-viewport {
-    max-height: 400px !important;
-    .slides {
-      img,
-      iframe {
-        border-radius: $borderRadiusAmount;
-        min-height: 400px;
-        max-height: 400px;
-        width: 100%
-      }
-    } 
-  }
-
-  .flex-control-thumbs {
-    max-height: 120px !important;
-    li {
-      padding: 0 5px;
-      img {
-        height: 120px !important;
-        border-radius: $borderRadiusAmount;
-      }
-    }
-  }
-
-  .flex-direction-nav {
-    display: none !important;
-  }
-}
-// END:: FLEX SLIDER GLOBAL STYLES
 
 .header_img_wraper {
   position: relative;
@@ -162,9 +130,19 @@ body {
         @include flexCenterAlignment();
         li {
           margin: 0 5px;
+          @include transitioning();
+          &:hover {
+            transform: scale(1.2);
+          }
+          &:last-child {
+            &:hover {
+              transform: scale(1);
+            }
+          }
           a {
             text-decoration: none;
             color: $midBlue;
+            @include transitioning();
             &:hover {
               color: $midGreen;
             }
@@ -1933,6 +1911,82 @@ nav {
   }
 }
 // END:: MAPS SECTION STYLES
+
+// START:: CONTACT US SECTIOV STYLES
+.contact_form {
+  padding: $paddingAmount 0;
+  .map_wraper {
+    height: 100%;
+    border-radius: $borderRadiusAmount 0 0 $borderRadiusAmount;
+    box-shadow: 0px 0px 30px -2px $midGreen;
+    iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 515px;
+      border-radius: $borderRadiusAmount 0 0 $borderRadiusAmount;
+    }
+  }
+
+  .form_wraper {
+    padding: 25px;
+    border-radius: 0 $borderRadiusAmount $borderRadiusAmount 0;
+    box-shadow: 0px 0px 30px -5px $midBlue;
+    .header_wraper {
+      @include flexCenterAlignment();
+      h2 {
+        @include mainHeaderStyle();
+      }
+    }
+
+    .form-group {
+      border: 1px solid $lighterGrey;
+      border-radius: $largeBorderRadiusAmount;
+      padding: 8px 12px;
+      display: flex;
+      align-items: center;
+      input {
+        border: none;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      span {
+        svg {
+          color: $midBlue;
+        }
+      }
+      textarea {
+        border: none;
+        width: 100%;
+        height: 250px;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .btn_box {
+      @include flexCenterAlignment();
+      button {
+        @include btnHoverEffect();
+      }
+    }
+  }
+
+  @media ( max-width: 767px ) {
+    .map_wraper {
+      border-radius: 0;
+      iframe {
+        border-radius: 0;
+      }
+    }
+
+    .form_wraper {
+      border-radius: 0;
+    }
+  }
+}
+// END:: CONTACT US SECTIOV STYLES
 
 // START:: FOOTER STYLES
 footer {

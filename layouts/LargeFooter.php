@@ -1,3 +1,55 @@
+<!-- START:: CONTACT US SECTION -->
+<div class="contact_form">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 p-0">
+        <div class="map_wraper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19338.15820346373!2d31.374660789535696!3d31.039183138529495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1616017063461!5m2!1sar!2seg" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 p-0">
+        <div class="form_wraper">
+          <div class="header_wraper">
+            <h2> Contact Us </h2>
+          </div>
+
+          <div class="form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Full Name*" require>
+              <span>
+                <i class="fas fa-user-circle fa-2x"></i>
+              </span>
+            </div>
+
+            <div class="form-group">
+              <input type="tele" class="form-control" placeholder="Your Phone Number*" require>
+              <span>
+                <i class="fas fa-phone-square-alt fa-2x"></i>
+              </span>
+            </div>
+
+            <div class="form-group mb-4">
+              <textarea placeholder="Your Inquiry"></textarea>
+            </div>
+
+            <div class="btn_box">
+              <button> Submit </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: CONTACT US SECTION -->
+
 <!-- START:: FOOTER -->
 <footer>
   <div class="container-fluid">
