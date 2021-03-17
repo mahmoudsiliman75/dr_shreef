@@ -337,6 +337,13 @@ nav {
   padding-top: $paddingAmount;
   padding-bottom: $paddingAmount;
 
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
   .about_wrape {
     .about_img {
       height: 100%;

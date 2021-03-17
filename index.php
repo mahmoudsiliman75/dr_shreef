@@ -240,6 +240,45 @@
 </div>
 <!-- END:: FAQ SECTION -->
 
+<!-- START:: BIOGRAPHY SECTION -->
+<div class="about_sec">
+	<div class="container">
+
+    <div class="header_wraper">
+      <h2> Dr.Shreif Kerdawi </h2>
+    </div>
+
+		<div class="about_wrape mt-3">
+			<div class="row justify-content-center">
+				<div class="col-10 col-md-5 mb-3">
+					<div class="about_img">
+						<img src="assets/media/pic7.jpg" alt="Author Image"> 
+					</div>
+				</div>
+
+				<div class="col-12 col-md-7">
+					<div class="about_text">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Magnam, explicabo aut reprehenderit corporis culpa sint 
+							architecto maxime eos quo aliquam incidunt laboriosam 
+							quidem consectetur molestias officia, neque quae error exercitationem.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Magnam, explicabo aut reprehenderit corporis culpa sint 
+							architecto maxime eos quo aliquam incidunt laboriosam 
+							quidem consectetur molestias officia, neque quae error exercitationem.
+						</p>
+						<div class="btn_box">
+							<a href="#"> Read More </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END:: BIOGRAPHY SECTION -->
+
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>
