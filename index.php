@@ -238,7 +238,7 @@
 </div>
 <!-- END:: FAQ SECTION -->
 
-<!-- START:: BIOGRAPHY SECTION -->
+<!-- START:: ABOUT SECTION -->
 <div class="about_sec">
 	<div class="container">
 
@@ -275,7 +275,7 @@
 		</div>
 	</div>
 </div>
-<!-- END:: BIOGRAPHY SECTION -->
+<!-- END:: ABOUT SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>
