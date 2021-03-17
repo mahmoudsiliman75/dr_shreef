@@ -65,38 +65,49 @@
   overflow: hidden;
   text-decoration: none;
   padding: 5px 15px;
-  border: 2px solid $lightCoffee;
+  border: 2px solid $midGreen;
   background-color: transparent;
-  color: $lightCoffee;
+  color: $midGreen;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  @include borderradius(30px);
+  @include borderradius(20px);
   &::before {
     content: "";
     position: absolute;
-    left: -100%;
-    top: 0;
+    left: 0;
+    top: -100%;
     display: block;
     width: 100%;
     height: 100%;
-    background-color: $lightCoffee;
+    background: $midGreen;
+    background: -webkit-linear-gradient(to right, $midGreen, $midBlue);
+    background: linear-gradient(to right, $midGreen, $midBlue);
     z-index: -1;
     @include transitioning();
   }
   &:hover {
     &::before{
-      left: 0;
+      top: 0;
     }
     color: $white;
   }
 }
 
 @mixin mainHeaderStyle {
-  color: $deepBlue;
-  border-left: 3px solid $lightCoffee;
-  padding: 8px;
+  color: $midBlue;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -45px;
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: $midGreen;
+  }
 }
 
 @mixin flexCenterAlignment {

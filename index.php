@@ -2,6 +2,7 @@
 <?php include('./layouts/TheHeader.php')?>
 <!-- END:: INCLUDING THE HEADER -->
 
+<!-- START:: HOME INTRO SERCTION -->
 <div class="intro_wraper">
   <div class="row">
     <!-- START:: HOME SLIDER -->
@@ -32,6 +33,7 @@
     </div>
     <!-- END:: HOME SLIDER -->
 
+    <!-- START:: SLIDER MENU -->
     <div class="intro_menu col-12 col-md-2">
       <ul class="list-unstyled mb-0">
         <li class="active">
@@ -47,8 +49,46 @@
         </li>
       </ul>
     </div>
+    <!-- END:: SLIDER MENU -->
   </div>
 </div>
+<!-- END:: HOME INTRO SERCTION -->
+
+<!-- START:: BIOGRAPHY SECTION -->
+<div class="about_sec">
+	<div class="container-fluid">
+
+		<div class="about_wrape mt-3">
+			<div class="row justify-content-center">
+				<div class="col-10 col-md-5 mb-3">
+					<div class="about_img">
+						<img src="assets/media/pic5.jpg" alt="Author Image"> 
+					</div>
+				</div>
+
+				<div class="col-12 col-md-7">
+					<div class="about_text">
+						<h4> Angioplasty For Erectile Dysfnction </h4>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Magnam, explicabo aut reprehenderit corporis culpa sint 
+							architecto maxime eos quo aliquam incidunt laboriosam 
+							quidem consectetur molestias officia, neque quae error exercitationem.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Magnam, explicabo aut reprehenderit corporis culpa sint 
+							architecto maxime eos quo aliquam incidunt laboriosam 
+							quidem consectetur molestias officia, neque quae error exercitationem.
+						</p>
+						<div class="btn_box">
+							<a href="#"> Read More </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END:: BIOGRAPHY SECTION -->
 
 
 <!-- START:: INCLUDING THE FOOTER -->
