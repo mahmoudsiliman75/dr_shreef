@@ -11,6 +11,7 @@
           <a href="index.php"> Home </a>
           <a href="AboutSurgery.php"> Surgery Details </a>
           <a href="Faq.php"> Surgery FAQ </a>
+          <a href="ContactUs.php"> Contact Us </a>
         </div>
 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
@@ -102,10 +103,6 @@
 <!-- START:: INCLUDING SITE FONT -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700;900&display=swap">
 <!-- END:: INCLUDING SITE FONT -->
-
-<!-- START:: INCLUDING SPLIDE SCRIPT FILE -->
-<script src="assets/js/splide.min.js"></script>
-<!-- END:: INCLUDING SPLIDE SCRIPT FILE -->
 
 <!-- START:: INCLUDING FLEX SLIDER SCRIPT FILE -->
 <script src="assets/js/jquery.flexslider.js"></script>

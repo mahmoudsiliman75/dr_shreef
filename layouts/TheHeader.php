@@ -123,6 +123,10 @@
         <a href="AllVideos.php"> Videos </a>
       </li>
 
+      <li> 
+        <a href="ContactUs.php"> Contact Us </a>
+      </li>
+
     </ul>
   </div>
   <!-- START:: NAV LINKS -->
@@ -168,6 +172,10 @@
 
     <li> 
       <a href="AllVideos.php"> Videos </a>
+    </li>
+
+    <li> 
+      <a href="ContactUs.php"> Contact Us </a>
     </li>
   </ul>
 </div>

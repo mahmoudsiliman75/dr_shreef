@@ -20,16 +20,16 @@
             <h2> Contact Us </h2>
           </div>
 
-          <div class="form">
+          <form>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Full Name*" require>
+              <input type="text" class="form-control" placeholder="Your Full Name*" required>
               <span>
                 <i class="fas fa-user-circle fa-2x"></i>
               </span>
             </div>
 
             <div class="form-group">
-              <input type="tele" class="form-control" placeholder="Your Phone Number*" require>
+              <input type="tele" class="form-control" placeholder="Your Phone Number*" required>
               <span>
                 <i class="fas fa-phone-square-alt fa-2x"></i>
               </span>
@@ -42,7 +42,7 @@
             <div class="btn_box">
               <button> Submit </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
@@ -63,6 +63,7 @@
           <a href="index.php"> Home </a>
           <a href="AboutSurgery.php"> Surgery Details </a>
           <a href="Faq.php"> Surgery FAQ </a>
+          <a href="ContactUs.php"> Contact Us </a>
         </div>
 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
