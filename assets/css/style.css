@@ -410,8 +410,7 @@ nav .menu_btn svg {
 }
 
 .intro_wraper .intro_menu ul li a {
-  -webkit-padding-end: 20px;
-          padding-inline-end: 20px;
+  padding: 0 20px;
   text-decoration: none;
   color: #fff;
 }
