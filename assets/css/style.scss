@@ -549,6 +549,82 @@ nav {
 }
 // END:: OPERATION PAGE STYLES
 
+// START:: ALL NEWS SECTION STYLES
+.all_news {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .card {
+    background-color: transparent;
+    @include simpleShadow();
+    img {
+      min-height: 250px;
+      max-height: 250px;
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 300px;
+      max-height: 300px;
+      h4 {
+        color: $midBlue;
+        text-align: start;
+      }
+      h6 {
+        color: $midBlue;
+        text-align: end;
+      }
+      p {
+        color: $lightGrey;
+        text-align: start;
+        line-height: 1.7;
+      }
+      .btn_box {
+        width: 100%;
+        @include flexCenterAlignment();
+        justify-content: flex-end;
+        a {
+          @include btnHoverEffect();
+        }
+      }
+    }
+  }
+
+  nav {
+    border-bottom: none;
+    @include flexCenterAlignment();
+    ul {
+      li {
+        a {
+          padding: 10px 20px;
+          color: $white;
+          background-color: $midBlue;
+          border: none;
+          @include transitioning();
+          &:hover {
+            background-color: $midGreen !important;
+            color: $white;
+          }
+        }
+        &.active {
+          a {
+            background-color: $midGreen !important;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: ALL NEWS SECTION STYLES
+
 // START:: ALL VIDEOS PAGE STYLES
 .videos {
   padding-bottom: $paddingAmount;

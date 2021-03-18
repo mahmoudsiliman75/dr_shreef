@@ -984,6 +984,168 @@ nav .menu_btn svg {
   top: 0;
 }
 
+.all_news {
+  padding: 30px 0;
+}
+
+.all_news .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.all_news .header_wraper h2 {
+  color: #085c77;
+  position: relative;
+}
+
+.all_news .header_wraper h2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -45px;
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #5d833a;
+}
+
+.all_news .card {
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
+}
+
+.all_news .card img {
+  min-height: 250px;
+  max-height: 250px;
+}
+
+.all_news .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.all_news .card .card-body h4 {
+  color: #085c77;
+  text-align: start;
+}
+
+.all_news .card .card-body h6 {
+  color: #085c77;
+  text-align: end;
+}
+
+.all_news .card .card-body p {
+  color: #666;
+  text-align: start;
+  line-height: 1.7;
+}
+
+.all_news .card .card-body .btn_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.all_news .card .card-body .btn_box a {
+  overflow: hidden;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 2px solid #5d833a;
+  background-color: transparent;
+  color: #5d833a;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 20px;
+}
+
+.all_news .card .card-body .btn_box a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #5d833a;
+  background: -webkit-gradient(linear, left top, right top, from(#5d833a), to(#085c77));
+  background: linear-gradient(to right, #5d833a, #085c77);
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.all_news .card .card-body .btn_box a:hover {
+  color: #fff;
+}
+
+.all_news .card .card-body .btn_box a:hover::before {
+  top: 0;
+}
+
+.all_news nav {
+  border-bottom: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.all_news nav ul li a {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #085c77;
+  border: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.all_news nav ul li a:hover {
+  background-color: #5d833a !important;
+  color: #fff;
+}
+
+.all_news nav ul li.active a {
+  background-color: #5d833a !important;
+}
+
 .videos {
   padding-bottom: 30px;
 }
@@ -1311,8 +1473,8 @@ nav .menu_btn svg {
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
 }
 
 .books_sec .books_panel h5 {
@@ -2179,8 +2341,8 @@ nav .menu_btn svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -3039,8 +3201,8 @@ nav .menu_btn svg {
 .reviews .review_wraper {
   padding: 15px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
 }
 
 .reviews .review_wraper .review_header {
@@ -3186,8 +3348,8 @@ nav .menu_btn svg {
   padding: 0;
   border-radius: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
 }
 
 .auth_forms_wraper form.login {
@@ -3273,8 +3435,8 @@ nav .menu_btn svg {
   background-color: transparent;
   padding: 30px 10px;
   border-radius: 30px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
 }
 
 .auth_forms_wraper form .form_overlay .btn_box {
@@ -3296,8 +3458,8 @@ nav .menu_btn svg {
   position: relative;
   border-radius: 20px;
   padding: 10px 10px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
 }
 
 .auth_forms_wraper form .form_overlay .btn_box button::before {
@@ -3374,8 +3536,8 @@ nav .menu_btn svg {
   padding: 0;
   border-radius: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
 }
 
 .page_content_wraper form.login {
@@ -3461,8 +3623,8 @@ nav .menu_btn svg {
   background-color: transparent;
   padding: 30px 10px;
   border-radius: 30px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
 }
 
 .page_content_wraper form .form_overlay .btn_box {
@@ -3484,8 +3646,8 @@ nav .menu_btn svg {
   position: relative;
   border-radius: 20px;
   padding: 10px 10px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 10px 1px #888;
+          box-shadow: 0 0 10px 1px #888;
 }
 
 .page_content_wraper form .form_overlay .btn_box button::before {

@@ -116,7 +116,7 @@
       </li>
 
       <li> 
-        <a href="#"> News </a>
+        <a href="AllNews.php"> News </a>
       </li>
 
       <li> 
@@ -167,7 +167,7 @@
     </li>
 
     <li> 
-      <a href="#"> News </a>
+      <a href="AllNews.php"> News </a>
     </li>
 
     <li> 

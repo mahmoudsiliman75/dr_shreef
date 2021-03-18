@@ -17,7 +17,7 @@
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="AboutUs.php"> About Us </a>
           <a href="AllVideos.php"> Videos Liberary </a>
-          <a href="#"> News </a>
+          <a href="AllNews.php"> News </a>
         </div>
       </div>
 
