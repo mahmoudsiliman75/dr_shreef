@@ -23,7 +23,7 @@
     </div>
 
     <div class="row justify-content-center mt-3">
-      <div class="col-8 col-md-4 mb-4">
+      <div class="col-10 col-md-4 mb-4">
         <div class="card">
           <img src="assets/media/pic19.jpg" class="card-img-top" alt="Article Thumbnail">
           <div class="card-body">
@@ -46,7 +46,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-4 mb-4">
+      <div class="col-10 col-md-4 mb-4">
         <div class="card">
           <img src="assets/media/pic1.jpg" class="card-img-top" alt="Article Thumbnail">
           <div class="card-body">
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-4 mb-4">
+      <div class="col-10 col-md-4 mb-4">
         <div class="card">
           <img src="assets/media/pic22.jpg" class="card-img-top" alt="Article Thumbnail">
           <div class="card-body">
@@ -92,7 +92,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-4 mb-4">
+      <div class="col-10 col-md-4 mb-4">
         <div class="card">
           <img src="assets/media/pic21.jpg" class="card-img-top" alt="Article Thumbnail">
           <div class="card-body">
@@ -115,7 +115,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-4 mb-4">
+      <div class="col-10 col-md-4 mb-4">
         <div class="card">
           <img src="assets/media/pic20.jpg" class="card-img-top" alt="Article Thumbnail">
           <div class="card-body">
@@ -138,7 +138,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-4 mb-4">
+      <div class="col-10 col-md-4 mb-4">
         <div class="card">
           <img src="assets/media/pic18.jpg" class="card-img-top" alt="Article Thumbnail">
           <div class="card-body">
@@ -161,7 +161,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-4 mb-4">
+      <div class="col-10 col-md-4 mb-4">
         <div class="card">
           <img src="assets/media/pic17.jpg" class="card-img-top" alt="Article Thumbnail">
           <div class="card-body">
@@ -184,7 +184,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-4 mb-4">
+      <div class="col-10 col-md-4 mb-4">
         <div class="card">
           <img src="assets/media/pic15.jpg" class="card-img-top" alt="Article Thumbnail">
           <div class="card-body">
@@ -207,7 +207,7 @@
         </div>
       </div>
 
-      <div class="col-8 col-md-4 mb-4">
+      <div class="col-10 col-md-4 mb-4">
         <div class="card">
           <img src="assets/media/pic14.jpg" class="card-img-top" alt="Article Thumbnail">
           <div class="card-body">

@@ -283,7 +283,7 @@ nav {
         padding: 8px;
         margin-bottom: 8px;
         a {
-          padding-inline-start: 20px;
+          padding-inline-end: 20px;
           text-decoration: none;
           color: $white;
         }
@@ -413,10 +413,14 @@ nav {
         background: linear-gradient(to right, $midBlue, $midGreen);
         h5 {
           button {
+            display: flex;
             text-decoration: none;
             color: $white;
             border: none;
             background-color: transparent;
+            svg {
+              margin-inline-end: 8px;
+            }
           }
         }
       }
@@ -749,753 +753,57 @@ nav {
 }
 // END:: SEND MESSAGE SECTION STYLES
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// START:: LIBERARY SECTION STYLES
-.liberary {
-  position: relative;
-  background: url("../media/books.jpg") no-repeat fixed;
-  width: 100%;
-  height: 350px;
-  position: relative;
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    @include flexCenterAlignment();
-    h3 {
-      background-color: rgba(241, 187, 105, 0.7);
-      color: $deepBlue;
-      font-weight: bolder;
-      padding: 15px 25px;
-      border-radius: $largeBorderRadiusAmount;
+// START:: ARTICLE INFO SECTION STYLES
+.article_info {
+  padding: $paddingAmount 0;
+  .article_text {
+    h1 {
+      text-align: start;
+      color: $midBlue;
+      padding-bottom: 8px;
+      border-bottom: 1px solid $midGreen;
     }
-  }
-}
-// END:: LIBERARY SECTION STYLES
 
-// START:: BOOKS SECTION STYLES
-.books_sec {
-  padding-top: $paddingAmount;
-  .books_panel {
-    padding: 20px;
-    height: fit-content;
-    border-radius: $borderRadiusAmount;
-    @include simpleShadow();
     h5 {
-      color: $deepBlue;
-      text-align: center;
+      text-align: end;
+      color: $midBlue;
+      margin: 15px 0;
     }
+
     p {
       text-align: start;
+      font-size: 18px;
+      line-height: 1.7;
       color: $lightGrey;
     }
-    .btn_box {
-      @include flexCenterAlignment();
-      a {
-        overflow: hidden;
-        @include btnHoverEffect();
-      }
-    }
   }
 
-  .book_details {
-    .card {
-      height: 100%;
-      position: relative;
-      border: none;
-      .card_img_wraper {
-        padding: 0 25px;
-        img {
-          min-height: 280px;
-          max-height: 280px;
-        }
-        .badge {
-          position: absolute;
-          right: 12px;
-          top: 20px;
-          background-color: $lightCoffee;
-          color: $deepBlue;
-          padding: 5px
-        }
-      }
-
-      .card-body {
-        padding-top: 5px;
-        min-height: 230px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        h5 {
-          color: $deepBlue;
-        }
-
-        ul {
-          width: 100%;
-          min-height: 95px;
-          padding: 0;
-          li {
-            margin-top: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            color: $deepBlue;
-            &:first-child {
-              margin-top: 0;
-            }
-            &:last-child {
-              span {
-                &:last-child {
-                  color: $midRed;
-                }
-              }
-            }
-          }
-        }
-
-        .btn_box {
-          @include flexCenterAlignment();
-          z-index: 1;
-          a {
-            overflow: hidden;
-            @include btnHoverEffect();
-          }
-        }
-      }
-    }
-  }
-}
-// END:: BOOKS SECTION STYLES
-
-// START:: TESTEMONIAL SECTION STYLES
-.testemonials {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .owl-carousel {
-    position: relative;
-
-    .item {
-      direction: ltr;
-      .testemonial_card {
-        padding: 20px 0;
-        border-radius: $borderRadiusAmount;
-        box-shadow: 0 0 25px -5px $lightCoffee inset;
-        .row {
-          .testemonial_img {
-            @include flexCenterAlignment();
-            flex-direction: column;
-            img {
-              min-width: 150px;
-              max-width: 150px;
-              min-height: 150px;
-              max-height: 150px;
-              border: 3px solid $lightCoffee;
-              border-radius: 50%;
-            }
-            h5 {
-              color: $deepBlue;
-              margin-top: 10px;
-            }
-          }
-
-          .testemonial_body {
-            color: $lightGrey;
-            text-align: start;
-            padding: 20px;
-            span {
-              margin: 0 10px;
-              svg {
-                color: $deepBlue;
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .owl-nav {
-      direction: ltr;
-      margin-top: 0;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      .owl-prev,
-      .owl-next {
-        position: relative;
-        background-color: $deepBlue;
-        color: $white;
-        width: 35px;
-        height: 35px;
-        line-height: 25px;
-        border-radius: 50%;
-        overflow: hidden;
-        @include transitioning();
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-      .owl-prev {
-        &::before {
-          content: "\f0d9";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-      .owl-next {
-        &::before {
-          content: "\f0da";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-    }
-  }
-}
-// END:: TESTEMONIAL SECTION STYLES
-
-// START:: VIDEOS SECTION STYLES
-.videos-sec {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .owl-carousel {
-    position: relative;
-
-    .item {
-      .iframe_wraper {
-        min-height: 250px;
-        max-height: 250px;
-        iframe {
-          width: 100%;
-          min-height: 250px;
-          max-height: 250px;
-          border-radius: $borderRadiusAmount;
-        }
-      }
-      h5 {
-        color: $deepBlue;
-        margin-top: 8px;
-      }
-    }
-
-    .owl-nav {
-      direction: ltr;
-      margin-top: 0;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      .owl-prev,
-      .owl-next {
-        position: relative;
-        background-color: $deepBlue;
-        color: $white;
-        width: 35px;
-        height: 35px;
-        line-height: 25px;
-        border-radius: 50%;
-        overflow: hidden;
-        @include transitioning();
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-      .owl-prev {
-        &::before {
-          content: "\f0d9";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-      .owl-next {
-        &::before {
-          content: "\f0da";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-    }
-  }
-
-  .btn_box {
-    margin-top: 15px;
-    @include flexCenterAlignment();
-    a {
-      overflow: hidden;
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: VIDEOS SECTION STYLES
-
-// START:: ABOUT PAGE STYLE
-.about_dr_desc {
-  .about_img {
-    height: auto;
-    width: 100%;
+  .article_img {
+    height: 100%;
     img {
       width: 100%;
       height: 100%;
+      min-height: 430px;
       border-radius: $borderRadiusAmount;
     }
   }
 
-  .about_text {
-    @include flexCenterAlignment();
-    flex-direction: column;
-    h3 {
-      width: 100%;
-      color: $deepBlue;
-      text-align: start;
-      border: none !important;
-    }
-    p {
-      color: $lightGrey;
-      text-align: start;
-    }
-    .icon_wpaper {
-      @include flexCenterAlignment();
-      flex-direction: column;
-      img {
-        min-width: 120px;
-        max-width: 120px;
-        min-height: 120px;
-        max-height: 120px;
-      }
-      h6 {
-        text-align: center;
-        color: $deepBlue;
-      }
-    }
-  }
-}
-// END:: ABOUT PAGE STYLE
-
-// START:: DR OPERATION SECTION STYLES
-.dr_operation {
-  padding-top: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  a {
-    text-decoration: none;
-    .operation_img_wraper {
-      img {
-        width: 100%;
-        min-height: 250px;
-        max-height: 250px;
-        border-radius: $borderRadiusAmount;
-      }
-      h5 {
-        color: $deepBlue;
-      }
-    }
-  }
-
-  .btn_box {
-    @include flexCenterAlignment();
-    a {
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: DR OPERATION SECTION STYLES
-
-
-
-// START:: HOW TO SHARE SECTION STYLES
-.share {
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .share_img_wraper {
-    img {
-      width: 100%;
-      min-height: 400px;
-      max-height: 400px;
-      border-radius: $borderRadiusAmount;
-    }
-  }
-
-  .share_info_wraper {
-    padding-top: 20px;
-    font-size: 20px;
-    color: $lightGrey;
-    line-height: 1.6;
-    text-align: justify;
-  }
-
-  .form_wraper {
-    padding-top: $paddingAmount;
-    padding-bottom: $paddingAmount;
-    form {
-      .form-group {
-        input,
-        textarea {
-          width: 100%;
-          border: 1px solid $deepBlue;
-          padding: 30px;
-          border-radius: $borderRadiusAmount;
-          &:focus {
-            outline: none;
-          }
-        }
-        textarea {
-          height: 250px;
-        }
-      }
-
-      .btn_box {
-        @include flexCenterAlignment();
-        button {
-          @include btnHoverEffect();
+  @media (max-width: 767px) {
+    .row {
+      div {
+        &:nth-child(1) {
+          margin-top: 20px;
+          order: 2;
         }
       }
     }
   }
 }
-// END:: HOW TO SHARE SECTION STYLES
+// END:: ARTICLE INFO SECTION STYLES
 
-// START:: ALL BOOKS SECTION STYLES
-.all_books {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .filter_wraper {
-    padding: 20px 0;
-    border-radius: $borderRadiusAmount;
-    @include flexCenterAlignment();
-    @include simpleShadow();
-    flex-direction: column;
-    h6 {
-      color: $deepBlue;
-    }
-    .form-group {
-      color: $lightGrey;
-    }
-  }
-
-  .book_details {
-    .card {
-      height: 100%;
-      position: relative;
-      border: none;
-      .card_img_wraper {
-        padding: 0 20px;
-        img {
-          min-height: 280px;
-          max-height: 280px;
-        }
-        .badge {
-          position: absolute;
-          right: 12px;
-          top: 20px;
-          background-color: $lightCoffee;
-          color: $deepBlue;
-          padding: 5px
-        }
-      }
-
-      .card-body {
-        padding-top: 5px;
-        min-height: 230px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        h5 {
-          color: $deepBlue;
-        }
-
-        ul {
-          width: 100%;
-          min-height: 95px;
-          padding: 0;
-          li {
-            margin-top: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            color: $deepBlue;
-            &:first-child {
-              margin-top: 0;
-            }
-            &:last-child {
-              span {
-                &:last-child {
-                  color: $midRed;
-                }
-              }
-            }
-          }
-        }
-
-        .btn_box {
-          @include flexCenterAlignment();
-          z-index: 1;
-          a {
-            overflow: hidden;
-            @include btnHoverEffect();
-          }
-        }
-      }
-    }
-  }
-
-  .btn_box {
-    @include flexCenterAlignment();
-    button {
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: ALL BOOKS SECTION STYLES
-
-// START:: BOOK DETAILS PAGE STYLES
-.book_info {
-  padding-top: $paddingAmount;
-  .header_wraper {
-    display: flex;
-    justify-content: start;
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .book_text_wraper {
-    .tabs_wraper {
-      border-top: 1px solid #eaeaea;
-      border-bottom: 1px solid #eaeaea;
-      padding: 8px;
-      .nav {
-        display: flex;
-        justify-content: start;
-        margin-bottom: 0 !important;
-        .nav-item {
-          .nav-link {
-            color: $deepBlue;
-            &.active {
-              background-color: $lightCoffee;
-              color: $white;
-              border-radius: $largeBorderRadiusAmount;
-            }
-          }
-        }
-      }
-
-      .price {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        span {
-          color: $deepBlue;
-          margin: 0 8px;
-          &.old_price {
-            color: $lighterGrey;
-            text-decoration: line-through;
-          }
-        }
-      }
-    }
-  }
-
-  .tab-content {
-    padding-bottom: 15px;
-    min-height: 345px;
-    max-height: 345px;
-    overflow-y: auto;
-    &::-webkit-scrollbar {
-      background-color: $lighterGrey;
-      width: 5px;
-    }
-    &::-webkit-scrollbar-thumb {
-      background-color: $deepBlue;
-    }
-    .tab-pane {
-      color:$lightGrey;
-      font-size: 18px;
-      line-height: 1.6;
-    }
-  }
-
-  .actions_wraper {
-    border-top: 1px solid #eaeaea;
-    border-bottom: 1px solid #eaeaea;
-    padding: 8px;
-    a {
-      text-decoration: none;
-      color: $lightOrange;
-      font-size: 18px;
-      span {
-        color: $deepBlue;
-        svg {
-          color: $lightGrey;
-        }
-      }
-    }
-    button {
-      border: none;
-      background: transparent;
-      color: $midRed;
-    }
-  }
-}
-// END:: BOOK DETAILS PAGE STYLES
-
-//  START:: BOOK DEEP DETAILS SECTION STYLES
-.deep_details {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .deep_text {
-    display: flex;
-    flex-direction: column;
-    padding: 0 $paddingAmount;
-    .header_wraper {
-      display: flex;
-      h3 {
-        display: flex;
-        @include mainHeaderStyle();
-      }
-    }
-
-    p {
-      color: $lightGrey;
-      font-size: 18px;
-      display: flex;
-      span {
-        font-weight: bold;
-        color: $darkGrey;
-      }
-    }
-  }
-
-  .deep_imgs {
-    padding: 0 $paddingAmount;
-    .header_wraper {
-      display: flex;
-      h3 {
-        @include  mainHeaderStyle();
-      }
-    }
-
-    .stores_wraper {
-      .img_wraper {
-        display: inline-block;
-        margin: 8px;
-        img {
-        min-width: 200px;
-        max-width: 200px;
-        min-height: 200px;
-        max-height: 200px;
-        }
-      }
-    }
-
-    @media ( max-width: 767px ) {
-      .stores_wraper {
-        text-align: center;
-        .img_wraper {
-          img {
-          min-width: 250px;
-          max-width: 250px;
-          min-height: 250px;
-          max-height: 250px;
-          }
-        }
-      }
-    }
-  }
-}
-//  END:: BOOK DEEP DETAILS SECTION STYLES
-
-// START:: VIDEOS SECTION STYLES
-.related_books {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
+// START:: RELATED ARTICLES SECTION STYLES
+.related_articles {
+  padding: $paddingAmount 0;
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
@@ -1508,62 +816,37 @@ nav {
 
     .item {
       .card {
-        height: 100%;
-        position: relative;
-        border: none;
-        .card_img_wraper {
-          padding: 0 20px;
-          img {
-            min-height: 300px;
-            max-height: 300px;
-          }
-          .badge {
-            position: absolute;
-            right: 10px;
-            top: 20px;
-            background-color: $lightCoffee;
-            color: $deepBlue;
-            padding: 5px
-          }
+        background-color: transparent;
+        img {
+          min-height: 250px;
+          max-height: 250px;
         }
-  
+    
         .card-body {
-          padding-top: 5px;
-          @include flexCenterAlignment();
+          display: flex;
           flex-direction: column;
-          h5 {
-            color: $deepBlue;
+          justify-content: space-between;
+          align-items: center;
+          min-height: 300px;
+          max-height: 300px;
+          h4 {
+            color: $midBlue;
+            text-align: end;
           }
-
-          ul {
-            width: 100%;
-            margin-bottom: 0 !important;
-            padding: 0;
-            direction: ltr;
-            li {
-              margin-top: 10px;
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              color: $deepBlue;
-              &:first-child {
-                margin-top: 0;
-              }
-              &:last-child {
-                span {
-                  &:last-child {
-                    color: $deepBlue;
-                  }
-                }
-              }
-            }
+          h6 {
+            color: $midBlue;
+            text-align: start;
           }
-  
+          p {
+            color: $lightGrey;
+            text-align: end;
+            line-height: 1.7;
+          }
           .btn_box {
+            width: 100%;
             @include flexCenterAlignment();
-            z-index: 1;
+            justify-content: flex-start;
             a {
-              overflow: hidden;
               @include btnHoverEffect();
             }
           }
@@ -1575,16 +858,16 @@ nav {
       direction: ltr;
       margin-top: 0;
       position: absolute;
-      left: 0;
+      left: 50%;
       top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
+      transform: translate(-50%);
+      width: 105%;
       display: flex;
       justify-content: space-between;
       .owl-prev,
       .owl-next {
         position: relative;
-        background-color: $lightCoffee;
+        background-color: $midBlue;
         color: $white;
         width: 35px;
         height: 35px;
@@ -1606,7 +889,7 @@ nav {
           left: 0;  
           width: 100%;
           height: 100%;
-          background-color: $lightCoffee;
+          background-color: $midBlue;
           @include flexCenterAlignment();
         }
       }
@@ -1620,512 +903,23 @@ nav {
           left: 0;  
           width: 100%;
           height: 100%;
-          background-color: $lightCoffee;
+          background-color: $midBlue;
           @include flexCenterAlignment();
         }
       }
     }
-  }
 
-  .btn_box {
-    margin-top: 15px;
-    @include flexCenterAlignment();
-    a {
-      overflow: hidden;
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: VIDEOS SECTION STYLES
-
-//  START:: BIOGRAPHY SECTION
-.biography {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .biography_wrape {
-    .biography_img {
-      height: 100%;
-      img {
+    @media ( max-width: 767px ) {
+      .owl-nav {
+        left: 0;
+        top: 45%;
         width: 100%;
-        height: 100%;
-        border-radius: $borderRadiusAmount;
-      }
-    }
-
-    .biography_text {
-      padding-inline-end: $paddingAmount;
-      h4 {
-        color: $deepBlue;
-        display: flex;
-        justify-content: flex-start;
-      }
-      p {
-        text-align: start;
-        color: $lightGrey;
-        font-size: 18px;
-        line-height: 1.6;
-      }
-      .btn_box {
-        display: flex;
-        justify-content: flex-end;
-        a {
-          @include btnHoverEffect();
-        }
+        transform: translateY(-50%);
       }
     }
   }
 }
-//  END:: BIOGRAPHY SECTION
-
-//  START:: REVIEWS SECTION
-.reviews {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .review_wraper {
-    padding: 15px;
-    border-radius: $borderRadiusAmount;
-    @include simpleShadow();
-    .review_header {
-      display: flex;
-      align-items: center;
-      img {
-        min-width: 100px;
-        max-width: 100px;
-        min-height: 100px;
-        max-height: 100px;
-        border-radius: 50%;
-        border: 3px solid $lightGrey;
-        margin-inline-end: 10px;
-      }
-
-      span {
-        svg {
-          color: rgb(235, 220, 17);
-        }
-      }
-    }
-
-    .review_body {
-      p {
-        text-align: start;
-        margin-top: 15px;
-        color: $lightGrey;
-        font-size: 18px;
-        line-height: 1.6;
-      }
-    }
-  }
-
-  .btn_box {
-    margin-top: 25px;
-    @include flexCenterAlignment();
-    a {
-      @include btnHoverEffect();
-    }
-  }
-}
-//  END:: REVIEWS SECTION
-
-// START:: CAIRO UNIVERSITY SECTION STYLES
-.cairo_university {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  .cairo_university_img_wraper {
-    img {
-      width: 100%;
-      min-height: 400px;
-      max-height: 400px;
-      border-radius: $borderRadiusAmount;
-    }
-  }
-
-  .cairo_university_info_wraper {
-    padding-top: 20px;
-    font-size: 20px;
-    color: $lightGrey;
-    line-height: 1.6;
-    text-align: justify;
-  }
-}
-// END:: CAIRO UNIVERSITY SECTION STYLES
-
-
-
-// START:: AUTH PAGE STYLES
-.auth_forms_wraper {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  border-left: 2px solid $lightCoffee;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  form {
-    position: relative;
-    margin-top: 15px;
-    padding: 0;
-    border-radius: $borderRadiusAmount;
-    overflow: hidden;
-    @include simpleShadow();
-    &.login {
-      max-height: 350px;
-      min-height: 350px;
-    }
-    &.sign_up {
-      max-height: 750px;
-      min-height: 750px;
-      svg {
-        position: relative;
-        top: -233px;
-        right: -180px;
-        z-index: -1;
-        &:last-of-type {
-          top: -319px;
-          left: -200px;
-          transform: rotate(30deg);
-        }
-      }
-      p {
-        color: $deepBlue;
-      }
-      ul {
-        li {
-          display: inline-block;
-          margin: 0;
-          img {
-            min-width: 50px; 
-            max-width: 50px; 
-            min-height: 50px; 
-            max-height: 50px; 
-          }
-        }
-      }
-    }
-    &.reset {
-      max-height: 220px;
-      min-height: 220px;
-    }
-    svg {
-      position: relative;
-      top: -233px;
-      right: -180px;
-      z-index: -1;
-    }
-    .form_overlay {
-      padding: 25px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      @include flexCenterAlignment();
-      flex-direction: column;
-      .form-group {
-        width: 100%;
-        input {
-          width: 100%;
-          background-color: transparent;
-          padding: 30px 10px;
-          border-radius: $largeBorderRadiusAmount;
-          @include simpleShadow();
-        }
-      }
-      .btn_box {
-        width: 100%;
-        button {
-          margin-bottom: 15px;
-          width: 100%;
-          @include btnHoverEffect();
-          padding: 10px 10px;
-          @include simpleShadow();
-        }
-        span {
-          color: $deepBlue;
-          font-size: 14px;
-          cursor: pointer;
-          &:hover {
-            text-decoration: underline;
-            color: rgb(49, 94, 146);
-          }
-        }
-      }
-    }
-  }
-}
-// END:: AUTH PAGE STYLES
-
-// START:: USER PROFILE PAGE CONTENT SECTION STYLES
-.page_content_wraper {
-  padding: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    margin-bottom: 10px;
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  form {
-    position: relative;
-    margin-top: 15px;
-    padding: 0;
-    border-radius: $borderRadiusAmount;
-    overflow: hidden;
-    @include simpleShadow();
-    &.login {
-      max-height: 350px;
-      min-height: 350px;
-    }
-    &.sign_up {
-      max-height: 650px;
-      min-height: 650px;
-      svg {
-        position: relative;
-        top: -233px;
-        right: -180px;
-        z-index: -1;
-        &:last-of-type {
-          top: -319px;
-          left: -200px;
-          transform: rotate(30deg);
-        }
-      }
-      p {
-        color: $deepBlue;
-      }
-      ul {
-        li {
-          display: inline-block;
-          margin: 0;
-          img {
-            min-width: 50px; 
-            max-width: 50px; 
-            min-height: 50px; 
-            max-height: 50px; 
-          }
-        }
-      }
-    }
-    &.reset {
-      max-height: 220px;
-      min-height: 220px;
-    }
-    svg {
-      position: relative;
-      top: -233px;
-      right: -180px;
-      z-index: -1;
-    }
-    .form_overlay {
-      padding: 25px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      @include flexCenterAlignment();
-      flex-direction: column;
-      .form-group {
-        width: 100%;
-        input {
-          width: 100%;
-          background-color: transparent;
-          padding: 30px 10px;
-          border-radius: $largeBorderRadiusAmount;
-          @include simpleShadow();
-        }
-      }
-      .btn_box {
-        width: 100%;
-        button {
-          margin-bottom: 15px;
-          width: 100%;
-          @include btnHoverEffect();
-          padding: 10px 10px;
-          @include simpleShadow();
-        }
-        span {
-          color: $deepBlue;
-          font-size: 14px;
-          cursor: pointer;
-          &:hover {
-            text-decoration: underline;
-            color: rgb(49, 94, 146);
-          }
-        }
-      }
-    }
-  }
-
-  table {
-    td {
-      button {
-        color: $midRed;
-        &:focus {
-          outline: none;
-        }
-      }
-    }
-  }
-
-  .caption_wraer {
-    h5 {
-      margin-top: 8px;
-      text-align: center;
-      color: $lightGrey;
-      font-weight: 400;
-      span {
-        color: $deepBlue;
-      }
-    }
-  }
-}
-// END:: USER PROFILE PAGE CONTENT SECTION STYLES
-
-// START:: USER PROFILE MENU SECTION STYLES
-.user_profile_menu {
-  padding: $paddingAmount;
-  padding-inline-end: 0;
-  border-left: 2px solid $lightCoffee;
-  background-color: #ffe71f14;
-  height: 100%;
-  min-height: 80vh;
-  ul {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    li {
-      @include menuHoverEffect();
-      margin: 8px 0;
-      color: $lightGrey;
-      &.active,
-      &:hover {
-        svg {
-          color: $lightCoffee;
-        }
-      }
-      button {
-        color: $lightGrey;
-      }
-    }
-  }
-}
-
-@media ( max-width: 767px) {
-  .page_content_wraper {
-    order: 2;
-  }
-
-  .user_menu_wraper {
-    order: 1;
-    .user_profile_menu {
-      min-height: auto !important;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-inline-start: 0;
-      ul {
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        li {
-          font-size: 13px;
-        }
-      }
-    }
-  }
-}
-// END:: USER PROFILE MENU SECTION STYLES
-
-
-
-// START:: CONTACT INFO SECTION STYLES
-.contact_info {
-  .card {
-    border: none;
-    .card_title {
-      svg {
-        color: $lightCoffee;
-      }
-    }
-    .card_list {
-      li {
-        color: $deepBlue;
-      }
-    }
-  }
-
-  .line_wraper {
-    padding-top: 75px;
-    display: flex;
-    align-items: flex-start;
-    img {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 992px) {
-    .line_wraper {
-      display: none !important;
-    }
-  }
-}
-// END:: CONTACT INFO SECTION STYLES
-
-// START:: MAPS SECTION STYLES
-.maps {
-  .map_info_wraper {
-    h3 {
-      text-align: start;
-      color: $deepBlue;
-      border: none !important;
-    }
-
-    .iframe_waper {
-      iframe {
-        width: 100%;
-        min-height: 300px;
-        max-height: 300px;
-      }
-    }
-
-    .map_text {
-      ul {
-        padding: 0;
-        li {
-          display: flex;
-          justify-content: flex-start;
-          font-size: 18px;
-          margin-bottom: 8px;
-          color: $lightGrey;
-          span {
-            color: $lightCoffee;
-            margin-inline-end: 10px;
-          }
-        }
-      }
-    }
-  }
-}
-// END:: MAPS SECTION STYLES
+// END:: RELATED ARTICLES SECTION STYLES
 
 // START:: CONTACT US SECTIOV STYLES
 .contact_form {
@@ -2143,6 +937,7 @@ nav {
   }
 
   .form_wraper {
+    min-height: 520px;
     padding: 25px;
     border-radius: 0 $borderRadiusAmount $borderRadiusAmount 0;
     box-shadow: 0px 0px 30px -5px $midBlue;

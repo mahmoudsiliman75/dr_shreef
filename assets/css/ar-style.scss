@@ -7,57 +7,61 @@
 // END:: MIXINS
 
 // START:: GLOBA AR STYLES
-.form-check {
-  padding-right: 1.25rem;
-  .form-check-input {
-    margin-right: -1.25rem;
-  }
-}
-
 h2,
 h3 {
-  border-right: 3px solid $lightCoffee;
-  border-left: none !important;
+  &::before {
+    right: -45px;
+  }
 }
 // START:: GLOBA AR STYLES
 
-// START:: LARGE SCREENS NAVBAR AR STYLES
-nav {
-  // START:: LANGUAGE BTN  AR STYLE
-  .lang-button {
-    button {
-      span {
-        &:nth-child(1) {
-          background-color: $white;
-          color: $lightCoffee;
-          border: 1px solid $lightCoffee;
-          border-left: none;
-          border-radius: 30px;
-          border-top-left-radius: 0;
-          border-bottom-left-radius: 0;
+// START:: UPPER BAR AR STYLES
+.upper_bar {
+  .upper_bar_element {
+    // START:: LANGUAGE BTN STYLE
+    .lang-button {
+      button {
+        span {
+          &:nth-child(1) {
+            color: $midGreen !important;
+            border: 1px solid $midBlue;
+            background: transparent !important;
+          }
+          &:nth-child(2) {
+            color: $white !important;
+            background: $midGreen;
+            background: -webkit-linear-gradient(to right, $midGreen, $midBlue);
+            background: linear-gradient(to right, $midGreen, $midBlue);
+          }
         }
-        &:nth-child(2) {
-          background-color: $lightCoffee;
-          color: $white;
-          border: 1px solid $lightCoffee;
-          border-right: none;
-          border-radius: 30px;
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
+      }
+    }
+    // END:: LANGUAGE BTN STYLE
+  }
+}
+// END:: UPPER BAR AR STYLES
+
+// START:: RELATED ARTICLES AR STYLES
+.related_articles  {
+  .owl-carousel {
+    .item {
+      .card {
+        .card-body {
+          h4 {
+            text-align: start;
+          }
+          h6 {
+            text-align: end;
+          }
+          p {
+            text-align: start;
+          }
+          .btn_box {
+            justify-content: flex-end;
+          }
         }
       }
     }
   }
-  // END:: LANGUAGE BTN AR STYLE
 }
-// END:: LARGE SCREENS NAVBAR AR STYLES
-
-// START:: TESTEMONIAL AR SECTION STYLES
-.testemonials {
-  .owl-carousel {
-    .item {
-      direction: rtl;
-    }
-  }
-}
-// END:: TESTEMONIAL AR SECTION STYLES
+// END:: RELATED ARTICLES AR STYLES
