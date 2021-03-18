@@ -49,7 +49,7 @@
 <div class="contact_info">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-6 col-md-3">
+      <div class="col-8 col-md-3 mb-3">
         <div class="contact_card">
           <h2>
             <i class="fas fa-map-marker-alt fa-2x d-block"></i>
@@ -59,7 +59,7 @@
         </div>
       </div>
 
-      <div class="col-6 col-md-3">
+      <div class="col-8 col-md-3 mb-3">
         <div class="contact_card">
           <h2>
             <i class="fas fa-mobile-alt fa-2x d-block"></i>
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="col-6 col-md-3">
+      <div class="col-8 col-md-3 mb-3">
         <div class="contact_card">
           <h2>
             <i class="far fa-envelope fa-2x d-block"></i>
@@ -87,7 +87,7 @@
 <div class="send_message">
   <div class="container-fluid px-3">
     <div class="row">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mb-3">
         <div class="form_wraper">
           <div class="header_wraper mb-3">
             <h3> Write Us A Message </h3>
