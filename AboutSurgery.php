@@ -99,6 +99,61 @@
 </div>
 <!-- END:: HIGHLIGHTS SECTION -->
 
+<!-- START:: SURGERY PROCESS SECTION -->
+<div class="surgery_process">
+  <div class="header_wraper mb-3">
+    <h2> Surgery Process </h2>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="circle_wraper col-2 p-0">
+        <div class="circle">
+          <img src="assets/media/default.jpg" alt="">
+        </div>
+        <h6> Patient Interview </h6>
+      </div>
+
+      <div class="circle_wraper col-2 p-0">
+        <div class="circle">
+          <img src="assets/media/default.jpg" alt="">
+        </div>
+        <h6> Patient Investigation </h6>
+      </div>
+
+      <div class="circle_wraper col-2 p-0">
+        <div class="circle">
+          <img src="assets/media/default.jpg" alt="">
+        </div>
+        <h6> Define Operation Date </h6>
+      </div>
+
+      <div class="circle_wraper col-2 p-0">
+        <div class="circle">
+          <img src="assets/media/default.jpg" alt="">
+        </div>
+        <h6> Opreation Prerequests </h6>
+      </div>
+
+      <div class="circle_wraper col-2 p-0">
+        <div class="circle">
+          <img src="assets/media/default.jpg" alt="">
+        </div>
+        <h6> Operation Details </h6>
+      </div>
+
+      <div class="circle_wraper col-2 p-0">
+        <div class="circle">
+          <img src="assets/media/default.jpg" alt="">
+        </div>
+        <h6> After Operation </h6>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- END:: SURGERY PROCESS SECTION -->
+
 <!-- START:: OPERATIONS SECTION -->
 <div class="operation_states">
   <div class="container-fluid">

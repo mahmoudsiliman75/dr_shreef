@@ -394,6 +394,61 @@ nav {
 }
 // END:: HEIGHLIHGTS SECTION STYLES
 
+// START:: SURGERY PROCESS SECTION STYLES
+.surgery_process {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .circle_wraper {
+    @include flexCenterAlignment();
+    flex-direction: column;
+    margin: 0 -32px;
+    h6 {
+      margin-top: 10px;
+      color: $midBlue;
+      width: 60%;
+      text-align: center;
+    }
+
+    .circle {
+      overflow: hidden;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border-top: 10px solid $midBlue;
+      border-right: 10px solid $midBlue;
+      border-bottom: 10px solid $lighterGrey;
+      border-left: 10px solid $lighterGrey;
+      transform: rotate(-45deg);
+      img {
+        width: 100%;
+        height: 100%;
+        transform: rotate(45deg);
+
+        // min-height: 150px;
+        // max-height: 150px;
+        // min-width: 150px;
+        // max-width: 150px;
+      }
+    }
+    &:nth-child(even) {
+      .circle {
+        border-top: 10px solid $lighterGrey;
+        border-right: 10px solid $lighterGrey;
+        border-bottom: 10px solid $midGreen;
+        border-left: 10px solid $midGreen;
+      }
+    }
+
+  }
+}
+// START:: SURGERY PROCESS SECTION STYLES
+
 // START:: FAQ SECTION STYLES
 .faq {
   padding-top: $paddingAmount;
