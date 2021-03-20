@@ -209,6 +209,12 @@
         </div>
       </div>
 
+      <div class="col-12">
+        <div class="btn_box">
+          <a href="#"> Load More </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
