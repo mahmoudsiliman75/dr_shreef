@@ -1183,7 +1183,8 @@ h2.timeline-year {
     height: 100%;
     border-radius: $borderRadiusAmount 0 0 $borderRadiusAmount;
     box-shadow: 0px 0px 30px -2px $midGreen;
-    iframe {
+    iframe, 
+    img {
       width: 100%;
       height: 100%;
       min-height: 515px;
