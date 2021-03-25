@@ -674,6 +674,7 @@ nav .menu_btn svg {
 }
 
 .surgery_process .circle_wraper {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -687,14 +688,30 @@ nav .menu_btn svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 -32px;
 }
 
 .surgery_process .circle_wraper h6 {
-  margin-top: 10px;
+  margin-top: 40px;
   color: #085c77;
-  width: 60%;
   text-align: center;
+}
+
+.surgery_process .circle_wraper img.arrow {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -85px;
+  right: -74px;
+  z-index: -1;
+}
+
+@media (max-width: 575px) {
+  .surgery_process .circle_wraper h6 {
+    margin: 15px 0;
+  }
+  .surgery_process .circle_wraper img.arrow {
+    display: none;
+  }
 }
 
 .surgery_process .circle_wraper .circle {
@@ -715,6 +732,18 @@ nav .menu_btn svg {
   height: 100%;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+
+.surgery_process .circle_wraper:nth-child(even) img.arrow {
+  -webkit-transform: translateY(165px) rotateX(180deg);
+          transform: translateY(165px) rotateX(180deg);
+}
+
+@media (max-width: 991px) {
+  .surgery_process .circle_wraper:nth-child(even) img.arrow {
+    width: 300px;
+    display: none;
+  }
 }
 
 .surgery_process .circle_wraper:nth-child(even) .circle {

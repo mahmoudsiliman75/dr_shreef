@@ -405,14 +405,33 @@ nav {
   }
 
   .circle_wraper {
+    position: relative;
     @include flexCenterAlignment();
     flex-direction: column;
-    margin: 0 -32px;
+    // margin: 0 -32px;
     h6 {
-      margin-top: 10px;
+      margin-top: 40px;
       color: $midBlue;
-      width: 60%;
       text-align: center;
+    }
+
+    img.arrow {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: -85px;
+      right: -74px;
+      z-index: -1;
+    }
+
+    @media ( max-width: 575px ) {
+      h6 {
+        margin: 15px 0;
+      }
+
+      img.arrow {
+        display: none;
+      }
     }
 
     .circle {
@@ -437,6 +456,17 @@ nav {
       }
     }
     &:nth-child(even) {
+      img.arrow {
+        transform: translateY(165px) rotateX(180deg);
+      }
+
+      @media ( max-width: 991px )  {
+        img.arrow {
+          width: 300px ;
+          display: none;
+        }
+      }
+
       .circle {
         border-top: 10px solid $lighterGrey;
         border-right: 10px solid $lighterGrey;

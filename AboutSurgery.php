@@ -101,48 +101,53 @@
 
 <!-- START:: SURGERY PROCESS SECTION -->
 <div class="surgery_process">
-  <div class="header_wraper mb-3">
+  <div class="header_wraper mb-5">
     <h2> Surgery Process </h2>
   </div>
 
   <div class="container-fluid">
     <div class="row justify-content-center">
-      <div class="circle_wraper col-2 p-0">
+      <div class="circle_wraper col-12 col-sm-6 col-lg-2 p-0">
         <div class="circle">
           <img src="assets/media/default.jpg" alt="">
         </div>
         <h6> Patient Interview </h6>
+        <img src="assets/media/arrow.png" alt="arrow" class="arrow arrow-1">
       </div>
 
-      <div class="circle_wraper col-2 p-0">
+      <div class="circle_wraper col-12 col-sm-6 col-lg-2 p-0">
         <div class="circle">
           <img src="assets/media/default.jpg" alt="">
         </div>
         <h6> Patient Investigation </h6>
+        <img src="assets/media/arrow.png" alt="arrow" class="arrow arrow-2">
       </div>
 
-      <div class="circle_wraper col-2 p-0">
+      <div class="circle_wraper col-12 col-sm-6 col-lg-2 p-0">
         <div class="circle">
           <img src="assets/media/default.jpg" alt="">
         </div>
         <h6> Define Operation Date </h6>
+        <img src="assets/media/arrow.png" alt="arrow" class="arrow arrow-3">
       </div>
 
-      <div class="circle_wraper col-2 p-0">
+      <div class="circle_wraper col-12 col-sm-6 col-lg-2 p-0">
         <div class="circle">
           <img src="assets/media/default.jpg" alt="">
         </div>
         <h6> Opreation Prerequests </h6>
+        <img src="assets/media/arrow.png" alt="arrow" class="arrow arrow-4">
       </div>
 
-      <div class="circle_wraper col-2 p-0">
+      <div class="circle_wraper col-12 col-sm-6 col-lg-2 p-0">
         <div class="circle">
           <img src="assets/media/default.jpg" alt="">
         </div>
         <h6> Operation Details </h6>
+        <img src="assets/media/arrow.png" alt="arrow" class="arrow arrow-5">
       </div>
 
-      <div class="circle_wraper col-2 p-0">
+      <div class="circle_wraper col-12 col-sm-6 col-lg-2 p-0">
         <div class="circle">
           <img src="assets/media/default.jpg" alt="">
         </div>
