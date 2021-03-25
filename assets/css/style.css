@@ -386,13 +386,13 @@ nav .menu_btn svg {
 }
 
 .intro_wraper .carousel .carousel-inner {
-  max-height: 250px;
+  max-height: 400px;
 }
 
 .intro_wraper .carousel .carousel-inner img {
   width: 100%;
-  min-height: 250px;
-  max-height: 250px;
+  min-height: 400px;
+  max-height: 400px;
 }
 
 .intro_wraper .intro_menu {

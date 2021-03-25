@@ -8,13 +8,6 @@
     <!-- START:: HOME SLIDER -->
     <div id="home_slider" class="carousel slide carousel-fade col-12 col-md-10 p-0" data-ride="carousel">
 
-      <!--  <ol class="carousel-indicators">
-        <li data-target="#home_slider" data-slide-to="0" class="active"></li>
-        <li data-target="#home_slider" data-slide-to="1"></li>
-        <li data-target="#home_slider" data-slide-to="2"></li>
-        <li data-target="#home_slider" data-slide-to="3"></li>
-      </ol> -->
-
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="assets/media/pic1.jpg" class="d-block" alt="Slide 1">
@@ -35,7 +28,7 @@
 
     <!-- START:: SLIDER MENU -->
     <div class="intro_menu col-12 col-md-2">
-      <ul class="list-unstyled mb-0">
+      <!-- <ul class="list-unstyled mb-0">
         <li class="active">
           <a href="#"> Did You Know? </a>
         </li>
@@ -46,6 +39,20 @@
 
         <li>
           <a href="AboutUs.php"> About Us </a>
+        </li>
+      </ul> -->
+
+      <ul class="list-unstyled mb-0">
+        <li data-target="#home_slider" data-slide-to="0" class="active">
+          <a href="javascript:;"> Did You Know? </a>
+        </li>
+
+        <li data-target="#home_slider" data-slide-to="1">
+          <a href="javascript:;"> Surgery FAQ </a>
+        </li>
+
+        <li data-target="#home_slider" data-slide-to="2">
+          <a href="javascript:;"> About Us </a>
         </li>
       </ul>
     </div>
